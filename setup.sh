@@ -505,11 +505,11 @@ if [ $USUARIO == "0" ]; then
 	    echo -e "time server = yes" >> "/opt/samba/etc/samba/smb.conf"
         echo -e "" >> "/opt/samba/etc/samba/smb.conf"
         echo -e "[sysvol]" >> "/opt/samba/etc/samba/smb.conf"
-	    echo -e "path = /opt/samba/var/locks/sysvol" >> "/opt/samba/etc/samba/smb.conf"
+	    echo -e "path = /opt/samba/var/lib/samba/sysvol" >> "/opt/samba/etc/samba/smb.conf"
 	    echo -e "read only = No" >> "/opt/samba/etc/samba/smb.conf"
         echo -e "" >> "/opt/samba/etc/samba/smb.conf"
         echo -e "[netlogon]" >> "/opt/samba/etc/samba/smb.conf"
-	    echo -e "path = /opt/samba/var/locks/sysvol/$REALM/scripts" >> "/opt/samba/etc/samba/smb.conf"
+	    echo -e "path = /opt/samba/var/lib/samba/sysvol/$REALM/scripts" >> "/opt/samba/etc/samba/smb.conf"
         echo -e "read only = No" >> "/opt/samba/etc/samba/smb.conf"
 
         cp /usr/src/samba-$VERSAO/bin/default/packaging/systemd/samba.service /etc/systemd/system/samba-ad-dc.service
