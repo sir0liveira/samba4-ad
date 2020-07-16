@@ -1,5 +1,4 @@
-![GitHub](https://img.shields.io/github/license/sir0liveira/samba4-ad) ![GitHub language count](https://img.shields.io/github/languages/count/sir0liveira/samba4-ad) ![GitHub top language](https://img.shields.io/github/languages/top/sir0liveira/samba4-ad) ![GitHub repo size](https://img.shields.io/github/repo-size/sir0liveira/samba4-ad) 
-
+![GitHub](https://img.shields.io/github/license/sir0liveira/samba4-ad?style=flat-square) ![GitHub language count](https://img.shields.io/github/languages/count/sir0liveira/samba4-ad?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/sir0liveira/samba4-ad?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/sir0liveira/samba4-ad?style=flat-square) 
 
 # Samba AD
 ## Script para instalação e provisionamento do samba como controlador de domínio
