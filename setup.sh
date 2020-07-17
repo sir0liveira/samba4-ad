@@ -545,7 +545,7 @@ if [ $USUARIO == "0" ]; then
 
         # Configurando o arquivo nsswitch
 
-        echo -e "# /etc/nsswitch.conf" > "/etc/nsswitch.conf.conf"
+        echo -e "# /etc/nsswitch.conf" > "/etc/nsswitch.conf"
         echo -e "#" >> "/etc/nsswitch.conf"
         echo -e "# Example configuration of GNU Name Service Switch functionality." >> "/etc/nsswitch.conf"
         echo -e "# If you have the \`glibc-doc-reference' and \`info' packages installed, try:" >> "/etc/nsswitch.conf"
